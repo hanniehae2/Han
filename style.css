@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color : #FFE4E1; /* Warna pink */
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFB6C1; /* Warna pink tua */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FDF5E6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #FFB6C1; /* Warna pink tua */
+    color: #fff;
+}
+
+/* Gaya untuk halaman "Tentang" */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    max-width: 200px;
+	border-radius: 20%;
+    margin: 20px;
+}
+
+.profile h2 {
+    font-size: 1.5rem;
+    color: #FFB6C1; /* Warna pink tua */
+}
+
+.profile p {
+    margin-top: 20px;
+}
